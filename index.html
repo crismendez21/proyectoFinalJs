@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3er Pre-entrega | JS</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <header id="header"></header>
+    <div class="container">
+        <h1>Simulador de Préstamos</h1>
+        <form id="loanForm">
+            <label for="montoPrestamo">Monto del préstamo:</label>
+            <input type="number" id="montoPrestamo" required>
+
+            <label for="interesAnual">Tasa de interés anual (%):</label>
+            <input type="number" id="interesAnual" step="0.01" required>
+
+            <label for="cantidadCuotas">Cantidad de cuotas:</label>
+            <input type="number" id="cantidadCuotas" required>
+            <button type="button" id="calcularBoton">Calcular prestamo</button>
+        </form>
+
+        <div id="result" class="result" style="display: none;">
+            <h2>Resultados del préstamo</h2>
+            <p id="pagoMensual">Pago mensual: $0</p>
+            <p id="pagoTotal">Monto total pagado: $0</p>
+        </div>
+    </div>
+    <footer class="pieDePagina">
+        <p>&copy; 2024 Mi simulador de prestamos. Todos los derechos reservados.</p>
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+</html>
+
+
+

@@ -1,0 +1,12 @@
+[
+    {
+        "montoPrestamo": 100000,
+        "interesAnual": 90,
+        "cantidadCuotas": 12
+    },
+    {
+        "montoPrestamo": 50000,
+        "interesAnual": 75,
+        "cantidadCuotas": 6
+    }
+]
